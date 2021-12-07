@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.outNavigation {
+  /* height: 5vh; */
+  background-color: #ececec;
+}
+
+.brandName {
+  font-family: inherit;
+  font-style: italic;
+  font-size: 1.5rem;
+  transition: all 0.4s;
+}
+
+.brandName:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  margin: 0 4rem;
+  padding: 1rem 0;
+}
