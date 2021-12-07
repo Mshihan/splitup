@@ -1,0 +1,46 @@
+.uploadAreaMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 10rem;
+}
+
+.instrumentSelection {
+  width: 300px;
+  height: 200px;
+  flex: 1;
+  margin: 0 2rem;
+}
+
+.instrumentSelection:hover {
+  cursor: pointer;
+}
+
+.instrumentSelection > p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.uploadSection {
+  flex: 2;
+  background-color: #cfcfcf;
+  border-radius: 10px;
+  padding: 96px;
+  border: gray 2px solid;
+}
+
+.uploadSection > h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.uploadSection > p {
+  font-family: Merriweather, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.8;
+}

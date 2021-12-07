@@ -1,0 +1,22 @@
+.introductionSection {
+  /* margin: 4rem auto;
+  padding: 0 4rem; */
+  width: 80%;
+  margin: 6rem auto;
+}
+
+.introductionSection > h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: Merriweather, Sans-serif;
+  font-weight: 200;
+}
+
+.introductionSection > p {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0 4rem;
+  font-family: Merriweather, Sans-serif;
+}
